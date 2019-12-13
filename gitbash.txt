@@ -1,0 +1,15 @@
+git config --global user.name "adobe-illust"
+git config --global user.email "whyeil@naver.com"
+//git clone https://github.com/사용자/저장소.git"
+//원격 저장소 정보를 로컬로 복제
+git clone https://github.com/adobe-illust/ai.git"
+
+git status
+//git add 폴더/파일
+//로컬 정보를 스테이징 영역(가상 공간)에 추가
+git add video/file-01.mp4
+//git commit -m "기록 변경 사항 메모(버전관리)"
+git commit -m "Create file-01.mp4"
+//Permiision 오류 발생 시 제어판>사용자계정>자격증명관리자>Windows 자격 증명 에서  git:https://github.com 제거 후 다시 로그인
+//원격 저장소로 업로드
+git push origin master
